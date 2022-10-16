@@ -5,7 +5,7 @@ pipeline{
     stage('shopizer'){
        steps{
           git branch:'develop', url: 'https://github.com/vamsibakka/shopizer.git'
-}
+  }
 }
  stage('build'){
     steps{
